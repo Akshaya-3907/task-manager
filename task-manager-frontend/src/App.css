@@ -1,0 +1,29 @@
+
+/* TaskFlow - preserve existing Bootstrap layout */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.dashboard {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.topbar {
+  width: 100%;
+}
+
+.task-column {
+  min-height: 200px;
+}
+
+.task-card {
+  margin-bottom: 12px;
+}
+
+.empty {
+  color: #6c757d;
+}
