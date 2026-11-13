@@ -3,7 +3,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-const API = `${process.env.REACT_APP_API_URL || "http://localhost:5000"}/tasks`;
+const API = `${process.env.REACT_APP_API_URL || "https://task-manager-backend-24s5.onrender.com"}/tasks`;
 
 function App() {
   const [tasks, setTasks] = useState([]);
